@@ -1,0 +1,1 @@
+<a class="btn btn-danger btn-block" href="{{ route('top') }}">番号検索トップページへ</a>

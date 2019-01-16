@@ -1,0 +1,152 @@
+ul, li {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.s {
+	font-size: 1rem;
+}
+
+header {
+  position: relative;
+  height: 52.5px;
+}
+
+.header-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 30.5px;
+}
+
+.footer-logo-wrap {
+  position: relative;
+  height: 54px;
+}
+
+.footer-logo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 22px;
+}
+
+.footer-links {
+  padding: 8px 0 12px;
+}
+
+.balloon:before {
+  content: "";
+  position: absolute;
+  bottom: 0px;
+  left: 49px;
+  margin-left: -10px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 10px 12px 10px;
+  border-color: transparent transparent #cccccc transparent;
+  z-index: 9;
+}
+
+.balloon:after {
+  content: "";
+  position: absolute;
+  bottom: -1px;
+  left: 49px;
+  margin-left: -10px;
+  width: 0px;
+  height: 0px;
+  border-style: solid;
+  border-width: 0 10px 12px 10px;
+  border-color: transparent transparent #FFF transparent;
+  z-index: 10;
+}
+
+.titleWrap {
+  position: relative;
+  background: #eee;
+  margin-left: -8px;
+  margin-right: -8px;
+  margin-bottom: 1rem;
+  border-bottom: 1px solid #cccccc;
+}
+
+.titleWrapPad {
+  padding: 15px;
+}
+
+.subTitleWrapPad {
+  padding: 12px 15px;
+}
+
+.subTitle {
+  font-size: 18px;
+  color: #ce0000;
+  font-weight: bold;
+	margin-left: 8px;
+}
+
+.subTitle:before {
+  content: ".";
+  display: block;
+  background: rgb(206, 0, 0);
+  background: linear-gradient(to bottom, rgba(206, 0, 0, 1) 0%, rgba(206, 0, 0, 1) 50%, rgba(245, 128, 128, 1) 51%, rgba(245, 128, 128, 1) 100%);
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ce0000', endColorstr='#f58080', GradientType=0);
+  font-size: inherit;
+  height: auto;
+  color: #f58080;
+  /* float: left; */
+  position: absolute;
+  /* top: 50%; */
+  left: 10px;
+	height: 30px;
+	width: 7px;
+  /* margin-right: 8px; */
+	/* height: 100%; */
+}
+
+.section-header .subTitle {
+  padding: 0 15px 20px;
+  margin-top: -10px;
+  margin-left: -15px;
+  margin-right: -15px;
+}
+
+.linkList2 {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  border-radius: 5px;
+  border: 1px solid #ce0000;
+  background: #FFFFFF;
+}
+
+ul.linkList2 li a {
+  display: block;
+  width: 100%;
+  position: relative;
+  padding: 16px 2em 16px 10px;
+  border-bottom: 1px solid #ce0000;
+  border-right: 1px solid #ce0000;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: #333333;
+}
+
+.my-th {
+  width: 100px;
+}
+
+.appHeader-icon {
+	font-size: 1.8rem;
+	color: #fff;
+}
+
+.notclick {
+	pointer-events: none;
+	opacity: .5;
+}
